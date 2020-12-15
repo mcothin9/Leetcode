@@ -3,7 +3,7 @@
  * @param {number} target
  * @return {number[]}
  */
-const twoSum = function(nums, target) {
+const q1TwoSum = function(nums, target) {
     let result = [];
     for (let i=0; i<nums.length; ++i) {
         // let newArr = nums.slice(i);
@@ -17,6 +17,4 @@ const twoSum = function(nums, target) {
     throw console.log('Illegal argument');
 };
 
-
-const result = twoSum([1,2,3,4,5], 7);
-console.log('result', result);
+module.exports = q1TwoSum;
